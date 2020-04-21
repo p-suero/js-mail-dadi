@@ -6,6 +6,11 @@ var email_database = ["paolo.suero@outlook.it","mario.rossi@ciao.it", "danilo.in
 console.log(email_database);
 
 //creo il ciclo per accedere alla sequenza dell array
-for (var i = 0; i < email_database.lenght; i++) {
-    console.log(i);
+for (var i = 0; i < email_database.length; i++) {
+    console.log(email_database[i]);
+    if (email_utente == (email_database[i])) {
+        console.log('Perfetto sei in lista');
+    } else {
+        console.log("Ci dispiace non sei in lista");
+    }
 }
