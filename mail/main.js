@@ -7,7 +7,7 @@ var email_database = ["paolo.suero@outlook.it","mario.rossi@ciao.it", "danilo.in
 console.log(email_database);
 
 //creo la variabile "emailInLista" per estrapolare il risultato dal ciclo ed evitare che si mostri il risultato per ogni valore di array
-var emailInList
+var emailInList = false;
 
 //creo il ciclo per accedere alla sequenza dell array
 for (var i = 0; i < email_database.length; i++) {
