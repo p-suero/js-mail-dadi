@@ -9,9 +9,9 @@ console.log(pc_number);
 //stabilisco la condizione
 //verifico che l'utente mi abbia dato un NUMERO che sia MAGGIORE/UGUALE di 1 e MINORE/UGUALE di 6
 if (isNaN(human_number) || human_number < 1 || human_number > 6) {
-    document.writeln('Attenzione, non hai inserito un numero valido');
+    alert("Attenzione, non hai inserito un numero valido");
 } else if (human_number >= pc_number){
-    document.writeln('Complimenti. Hai vinto!');
+    document.writeln("Complimenti. Hai vinto!");
 } else {
-    document.writeln('Hai perso. Ritenta la fortuna');
+    document.writeln("Hai perso. Ritenta la fortuna");
 }
