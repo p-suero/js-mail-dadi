@@ -1,3 +1,5 @@
+// "Sono in lista?" Chiedi all'utente la sua email e controlla che sia nella lista di chi può accedere (ergo: la mail è presente in un array contenente le email "autorizzate") e stampa un messaggio appropriato (sei in lista/non sei in lista)
+
 // chiedo all'utente di inserire la sua emaio
 var email_utente = prompt("Inserisci la tua email");
 console.log(email_utente);
