@@ -4,7 +4,7 @@
 var human_number = parseInt(prompt("Inserisci un numero da 1 a 6"));
 console.log(human_number);
 
-// estraggo un numero a caso da 1 a 6 grazie alla funzione random
+// estraggo un numero a caso da 1 a 6 attraverso la funzione random
 var pc_number = Math.floor(Math.random() * 6) + 1;
 console.log(pc_number);
 

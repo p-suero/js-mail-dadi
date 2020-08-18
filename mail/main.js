@@ -1,10 +1,10 @@
 // "Sono in lista?" Chiedi all'utente la sua email e controlla che sia nella lista di chi può accedere (ergo: la mail è presente in un array contenente le email "autorizzate") e stampa un messaggio appropriato (sei in lista/non sei in lista)
 
-// chiedo all'utente di inserire la sua emaio
+// chiedo all'utente di inserire la sua email
 var email_utente = prompt("Inserisci la tua email");
-console.log(email_utente);
+console.log("L'utente ha inserito la seguente email: " + email_utente);
 
-//creo l'array con la lista delle email per creare un database
+//creo l'array con la lista delle email presenti in database(fittizio)
 var email_database = ["paolo.suero@outlook.it","mario.rossi@ciao.it", "danilo.inverno@due.com", "maria.ferrari@libero.it"];
 console.log(email_database);
 
@@ -12,8 +12,7 @@ console.log(email_database);
 var emailInList = false;
 
 //creo il ciclo per accedere alla sequenza dell array
-for (var i = 0; i < email_database.length; i++) {
-    console.log(email_database[i]); //check
+for (var i = 0; i < email_database.length && emailInList == false; i++) {
     if (email_utente == (email_database[i])) {
         emailInList = true;
     }
